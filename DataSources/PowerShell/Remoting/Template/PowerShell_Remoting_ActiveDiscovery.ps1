@@ -18,7 +18,7 @@ Remove-Variable * -ErrorAction SilentlyContinue
 $wmi_pass = '##WMI.PASS##'
 $wmi_user = '##WMI.USER##'
 $hostname = '##SYSTEM.HOSTNAME##'
-$collectorName = hostname
+$collectorName = '##system.collectordesc##'
 
 # Insert additional variables here
 
